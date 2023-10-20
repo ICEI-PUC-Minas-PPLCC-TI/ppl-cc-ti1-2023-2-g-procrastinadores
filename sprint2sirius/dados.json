@@ -1,0 +1,25 @@
+{"artigos": [
+    {
+        "id": "1",
+        "titulo": "...",
+        "img": "url/path",
+        "texto": {
+            "p1": "aaa",
+            "p2": "aaaaa"
+        },
+        "autor": "nome do autor",
+        "categoria": "habilidades"
+    },
+    {
+        "id": "2",
+        "titulo": "...",
+        "img": "url/path",
+        "texto": {
+            "p1": "alllllaa",
+            "p2": "alalalalaaaaa"
+        },
+        "autor": "nome do autor",
+        "categoria": "habilidades"
+    }
+]}
+
