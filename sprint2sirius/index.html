@@ -1,99 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ukiyo - Guia de Habilidades</title>
-        <link rel = "stylesheet" href = "styles.css">
-        <script src = "script.js"></script>
-        <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="style-index.css">
+    <script src="script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Jost:wght@200&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap" rel="stylesheet">
 </head>
-<body>
-    <div id = "container">
+
+<body onload="carregarPreview()">
+    <div id="container">
         <header>
-            <div id = "logo">
-                Logo!
-            </div>
-            <div id = "nav-itens-box">
-                <ul id = "nav-itens">
-                    <li class ="nav-item" >Home</li>
-                    <li class ="nav-item">Sobre</li>
-                    <li class ="nav-item">Objetivos</li>
-                    <li class ="nav-item">Lista</li>
-                    <li class ="nav-item">Perfil</li>
+            <img id="logo" src="logo.png">
+            <div id="nav-itens-box">
+                <ul id="nav-itens">
+                    <li class="nav-item">Home</li>
+                    <li class="nav-item">Sobre</li>
+                    <li class="nav-item">Objetivos</li>
+                    <li class="nav-item">Lista</li>
+                    <li class="nav-item">Perfil</li>
                 </ul>
             </div>
-            <div id = "nav-icones">
-                <div class = "icone">A</div>
-                <div class = "icone">N</div>
+            <div id="nav-icones">
+                <div class="icone">A</div>
+                <div class="icone">N</div>
             </div>
         </header>
 
         <main>
-                <div class = "article">
-                    <div class = "title"> Larari Larara </div>
-     <!-- CONTEUDO artigo começa aqui -->
-                        <div class = "content">
-                            
-                            <div class = "article-nav">
-                             <!-- ITEM DE ARTIGO -->
-                                <div class = "article-nav-item">
-                                    <div class = "item">Item 1</div>
-                                        <div class = "subitem">
-                                            subitem 1
-                                        </div>
-                                </div>
-                             <!-- fim do ITEM DE ARTIGO -->
+            <div id="content">
 
-                             <div class = "article-nav-item">
-                                <div class = "item">Item 2</div>
-                                    <div class = "subitem">
-                                        subitem 2.1
-                                    </div>
-                                    <div class = "subitem">
-                                        subitem 2.2
-                                    </div>
-                                    <div class = "subitem">
-                                        subitem 2.1
-                                    </div>
+                <div class="article-box">
+                    <div class="txt-box">
+                        <div class="titulo-box">
+                            <div class="titulo">Placeholder p/ titulo</div>
+                        </div>
+
+                        <div class="resumo-box">
+                            <div class="resumo">
+                                Aqui haveria um resuminho, é o primeiro resuminho, parabéns pro resuminho
                             </div>
-                            <div class = "article-nav-item">
-                                <div class = "item">Item 3</div>
-                                    <div class = "subitem">
-                                        subitem 3.1
-                                    </div>
-                                    <div class = "subitem">
-                                        subitem 3.2
-                                    </div>
-                            </div>
-                            </div>
-                            
-                            <div class = "txt"> 
-                                A procrastinação, como a maior partes das coisas, é o sintoma de alguma outra coisa e não o problema em si. Entender de onde vem a sua procrastinação e o que a dolor sit amet, consectetur adipiscing elit. Proin pretium enim ut luctus vehicula. Etiam at velit dapibus mauris semper venenatis. Etiam risus arcu, imperdiet ut urna ac, semper consequat dolor. Praesent lorem nunc, dignissim id dictum quis, egestas eu elit. Suspendisse dapibus ut magna at cursus. Pellentesque pulvinar convallis lorem dignissim auctor. Fusce lobortis odio eget bibendum rutrum. Phasellus id turpis ut ipsum lacinia aliquam nec nec urna. Ut nec nibh mollis lorem auctor pharetra. Nam eget cursus leo, id semper nisl. Etiam nec sapien mollis, tincidunt augue tristique, accumsan purus.
-                                <br> <br>
-                                Nam sapien turpis, scelerisque sed egestas nec, elementum vitae urna. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Mauris ut justo nisl. Morbi orci metus, semper quis nunc eget, varius tempor mauris. Donec vestibulum, massa in varius ultrices, quam purus ornare purus, vel varius turpis risus sed diam. Proin vel lectus vel dui finibus volutpat. Duis auctor auctor eleifend. Sed vitae ligula imperdiet, venenatis mi in, blandit lacus. Aenean hendrerit, sem eu efficitur fringilla, felis nibh commodo orci, id feugiat libero orci consectetur nulla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Vestibulum in ante ut mauris elementum dapibus a quis augue. Vivamus sit amet mollis est. Morbi ultrices neque non nunc luctus volutpat. Pellentesque pretium eget metus sit amet auctor.
-                                Sed ac rutrum tortor. Sed sem mauris, porttitor ultrices feugiat id, faucibus sit amet nisi. Nam condimentum, est venenatis pulvinar commodo, mi arcu dictum massa, nec aliquet justo tortor vel tortor. Vestibulum et sodales eros. Proin et luctus ipsum. Morbi vel commodo massa. Donec in orci placerat, pulvinar urna eget, eleifend est. Fusce ut luctus leo. In et tempor sem. Praesent porta sit amet risus sit amet gravida. Aenean molestie ligula eros, id tempor erat fermentum a. Phasellus fringilla risus leo, eu tristique felis vehicula in. Suspendisse nunc erat, sollicitudin vitae turpis at, gravida bibendum turpis. Cras tortor est, commodo quis tincidunt quis, blandit eu lorem.
-                                <br> <br>
-                                In ante tortor, tincidunt sit amet placerat sodales, gravida quis diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a auctor erat. Cras porttitor mauris eget posuere porta. Nulla dignissim augue suscipit, accumsan libero id, ultrices libero. Ut ut elit turpis. Nam in sem ut nunc mollis suscipit. Aliquam sit amet condimentum quam. Pellentesque vitae arcu sem. Donec facilisis scelerisque dapibus. Nulla id egestas est, vitae molestie felis. Praesent a nisi non velit accumsan convallis eget ac ipsum.
-                                <br> <br>
-                                Duis egestas cursus odio nec vestibulum. Donec massa ligula, sagittis eget leo et, commodo luctus nisl. Maecenas volutpat metus id risus vestibulum, ut fringilla nisl viverra. Nunc commodo nisi vel felis condimentum gravida. Mauris a venenatis leo, sed ultrices velit. Vivamus at sem nec lorem iaculis ultrices. Pellentesque porttitor pharetra porta. Donec mi lorem, tristique id sollicitudin feugiat, mattis elementum dui.
-                            </div>
-     <!-- FIM do artigo, texto e tal-->
                         </div>
                     </div>
+                </div>
+
+                <div class="article-box">
+                    <div class="txt-box">
+                        <div class="titulo-box">
+                            <div class="titulo">Placeholder do titulo 2</div>
+                        </div>
+
+                        <div class="resumo-box">
+                            <div class="resumo">
+                                Aqui vai um resuminho, aqui teria um resuminho se houvesse um resuminho
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
         </main>
 
         <footer>
-            <div id = "textbox">
-                <div class = "info">Política de privacidade</div>
-                <div class = "info">Quem somos nós</div>
-                <div class = "info">Fale conosco: contato@contato.dni</div>
+            <div id="textbox">
+                <div class="info">Política de privacidade</div>
+                <div class="info">Quem somos nós</div>
+                <div class="info">Fale conosco: contato@contato.dni</div>
             </div>
         </footer>
-
     </div>
 </body>
