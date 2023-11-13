@@ -9,7 +9,6 @@ O projeto busca resolver a dificuldade enfrentada na superação da procrastina�
 
 * Arthur A. Almeida
 * Flávia F.F. Gama
-* Hernando L.G.P de Soto
 * Matteo T. Piovano
 * Pedro D.S. Carvalho
 * Sirius V. Zevallos
