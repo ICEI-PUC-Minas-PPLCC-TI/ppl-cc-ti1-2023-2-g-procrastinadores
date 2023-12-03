@@ -1,0 +1,45 @@
+{
+    "header": {
+      "logoURL": "/img/logo.png",
+      "links": [
+        { "title": "Calendário", "url": "/08- tela calendário/calendario.html" },
+        { "title": "Tarefas", "url": "/02- tela cadastro de tarefas/tarefas.html" },
+        { "title": "Alarme", "url": "/09- tela de alarmes/alarmes.html" },
+        { "title": "Kanban", "url": "/05- tela kanban/kanban.html" },
+        { "title": "Listas", "url": "/04- tela lista/lista.html" },
+        { "title": "Sucessos", "url": "/10- tela de sucessos/sucessos.html" }
+      ]
+    },
+    "footer": {
+      "privacyPolicyURL": "/11- header e footer/politicadeprivacidade.html",
+      "contactEmail": "fffgama@sga.pucminas.br",
+      "author": "Flávia F. F. Gama"
+    },
+    "cssStyles": {
+      "body": {
+        "fontFamily": "Tilt Neon, sans-serif",
+        "backgroundColor": "#FFF",
+        "display": "flex",
+        "flexDirection": "column",
+        "minHeight": "100vh"
+      },
+      "footer": {
+        "backgroundColor": "#93FF96",
+        "backgroundImage": "linear-gradient(to bottom right, #86E7B8, #93FF96, #B2FFA8)",
+        "color": "#FFF",
+        "padding": "10px",
+        "alignItems": "flex-end"
+      },
+      "clock": {
+        "width": "300px",
+        "height": "300px",
+        "margin": "50px auto",
+        "backgroundColor": "#fff",
+        "borderRadius": "50%",
+        "boxShadow": "0 0 20px rgba(0, 0, 0, 0.1)",
+        "position": "relative"
+       
+      }
+    }
+  }
+  

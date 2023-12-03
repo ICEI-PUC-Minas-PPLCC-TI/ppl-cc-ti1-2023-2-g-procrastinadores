@@ -1,0 +1,40 @@
+{
+    "config": {
+      "language": "en",
+      "title": "Calendário",
+      "fonts": [
+        "Tilt Neon"
+      ]
+    },
+    "links": {
+      "stylesheets": [
+        "calendario.css",
+        "https://fonts.googleapis.com/css2?family=Tilt+Neon&amp;display=swap"
+      ],
+      "pages": [
+        { "name": "Calendário", "url": "/08- tela calendário/calendario.html" },
+        { "name": "Tarefas", "url": "/02- tela cadastro de tarefas/tarefas.html" },
+        { "name": "Alarme", "url": "/09- tela de alarmes/alarmes.html" },
+        { "name": "Kanban", "url": "/05- tela kanban/kanban.html" },
+        { "name": "Listas", "url": "/04- tela lista/lista.html" },
+        { "name": "Sucessos", "url": "/10- tela de sucessos/sucessos.html" }
+      ],
+      "footerLinks": [
+        { "name": "Politica de privacidade", "url": "/11- header e footer/politicadeprivacidade.html" }
+      ],
+      "footerContact": {
+        "email": "fffgama@sga.pucminas.br",
+        "author": "Flávia F. F. Gama"
+      }
+    },
+    "calendar": {
+      "header": "Calendário de Lembretes",
+      "fields": [
+        { "type": "date", "id": "date" },
+        { "type": "time", "id": "time" },
+        { "type": "text", "id": "reminderText", "placeholder": "Texto do lembrete" }
+      ]
+    },
+    "script": "calendario.js"
+  }
+  

@@ -1,0 +1,54 @@
+{"artigos": [
+  {
+      "id": 0,
+      "titulo": "Procrastinação e habilidades emocionais",
+      "texto": "Poucos, se é que existem, são aqueles que nunca deixaram uma tarefa para depois. A procrastinação, definida como o <i>“adiamento voluntário de uma tarefa, mesmo que haja consequências negativas”</i>, acontece com todo mundo, e geralmente está ligada a contextos de produtividade, como trabalho e estudo. Por esse motivo a procrastinação é comumente associada à preguiça, mas estudos sugerem que esse adiamento está relacionado à <b>dificuldade em regular emoções desagradáveis associadas ao trabalho</b>, como vergonha, aversão ou indignação Sendo assim, a procrastinação não se trata de uma questão de preguiça ou de incapacidade de gerir o próprio tempo, mas sim uma tentativa de <b>evitar o mal estar causado por essas tarefas</b>.<br>É o caso de um estudante de graduação, por exemplo, que ama seu curso e as disciplinas que faz. No entanto, os trabalhos e estudos não podem ser feitos exatamente da forma ou no ritmo que gostaria, e frequentemente, o estudante se depara com uma série de limitações, urgências, e outros desagrados que tornam essas atividades algo não prazeroso e, portanto, aversivo. Assim, mesmo se tratando de algo que o estudante gosta, ele procrastina.<br>Também é possível que a procrastinação seja usada como uma espécie de proteção ao bem-estar mental. Isso porque, ao iniciar uma tarefa, nos deparamos com a possibilidade de falhar, o que causa sentimentos desagradáveis.<br>O autor do livro <i>'Inteligência Emocional'</i>, Daniel Goleman, ressalta que as emoções desempenham um papel crucial na tomada de decisões e na habilidade de lidar com desafios. Desse modo, habilidades <b>para entender e lidar com as emoções, mais especificamente a expressão dessas emoções</b>, podem ser benéficas para pessoas que estão tendo dificuldade com procrastinação.",
+      "item": [
+              {
+                "nome": "",
+                "subitens": []
+              }
+      ],
+      "autor": "Sirius Victor Zevallos",
+    "resumo": "Poucos, se é que existem, são aqueles que nunca deixaram uma tarefa para depois. A procrastinação, definida como o <i>“adiamento voluntário de uma tarefa, mesmo que haja consequências negativas”</i>, acontece com todo mundo, e geralmente está ligada a contextos de produtividade, como trabalho e estudo. No entanto, não é bem assim que a banda toca.",
+      "categoria": "habilidades"
+  },
+  {
+      "id": 1,
+      "titulo": "Habilidades gerais: orientação e análise do comportamento",
+      "texto": "<h2>Opções para lidar com a procrastinação</h2> Quando a vida te dá um limão, quais são as suas opções? Você poderia, por exemplo, fazer limonada ou um mousse. Outra opção seria deixar o limão de lado e esquecer-se dele, e uma terceira opção seria espremer o limão nos próprios olhos. Você provavelmente concorda que essa terceira opção seria dolorosa e pouco eficiente, mas no contexto da execução de tarefas, isso é o mesmo que continuar procrastinando.  <br> <a name=\"capitulo1\">Quando a vida lhe apresenta um problema,</a> quais são suas opções? Você poderia solucionar o problema ou tentar sentir-se melhor em relação a ele, mesmo que ele continue existindo. Outra opção seria aprender a tolerar ambos o problema e seus sentimentos sobre ele, e uma terceira opção seria continuar infeliz, ou possivelmente piorar! Agora você entende onde eu estou tentando chegar? Se você identifica a procrastinação como um problema na sua vida, continuar procrastinando é a última coisa que você deveria fazer.  <br> Como a fonte da procrastinação, isto é, as tarefas que te causam um sentimento desagradável, vão continuar existindo independente de qualquer coisa, a única opção restante é modificar as suas respostas emocionais à elas.<br> Para isso, utilizamos a <a name=\"capitulo2\"><b>análise em cadeia,</a></b> que examina a cadeia de acontecimentos que acarretam comportamentos ineficazes, assim como as consequências desses comportamentos (e como reparar os danos).  <h2> Análise em cadeia </h2> Para compreender os seus comportamentos, faça uma análise em cadeia. O passo um é <b>descrever o comportamento-problema</b>. No caso da procrastinação, o problema é auto-evidente, mas tente ser tão específico e minucioso quanto for possível. Identifique exatamente o que você disse, pensou ou fez, e descreva também a intensidade do comportamento.  <br> Passo dois: <b>descrever o evento desencadeante</b>. Identifique e descreva, com a mesma riqueza de detalhes do passo um, qual foi o momento específico que desencadeou toda a cadeia de comportamentos. Qual foi o evento exato, o que estava acontecendo exatamente antes, o que você pensou, imaginou ou fez naquele momento" ,
+      "item": [
+              {
+                  "nome": "<a href=\"#capitulo1\">Opções para lidar com a procrastinação</a>",
+                  "subitens": []
+              },
+              {
+                  "nome": "<a href=\"#capitulo2\">Análise em cadeia</a>",
+                  "subitens": []
+              }
+      ],
+      "autor": "Sirius Victor Zevallos",
+      "resumo": "isso é o resumo do meu artigo primerio da não-constituição",
+      "categoria": "habilidades"
+  },
+  {
+    "id": 2,
+      "titulo": "Minfulness",
+      "texto": "      ",
+      "item": [
+              {
+                  "nome": "<a href=\"#capitulo1\">Afinal de contas, o que é mindfulness</a>",
+                  "subitens": []
+              },
+              {
+                  "nome": "<a href=\"#capitulo2\">Quais os benefícios e vantagens do mindfulness?</a>",
+                  "subitens": [
+                    "<a href=\"#1.1\">1. Redução de estresse, ansiedade e sintomas de depressão</a>"
+                ]
+              }
+      ],
+      "autor": "<a href=\"https://vidasaudavel.einstein.br/5-vantagens-do-mindfulness-e-um-passo-a-passo-para-pratica-lo/\"> Hospital Israelita Albert Einstein</a>",
+      "resumo": "Se você nunca ouviu falar sobre mindfulness ou quer dar os primeiros passos nessa técnica de meditação, além de conhecer mais sobre os benefícios de inseri-la na sua rotina, confira este conteúdo que esclarece os principais pontos sobre tema.",
+      "categoria": "habilidades"
+  }
+]}

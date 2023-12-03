@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de tarefas</title>
+    <link rel="stylesheet"  href="tarefas.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Tilt+Neon&amp;display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="img-logo">
+            <a href="/01- main/index.html"><img id="logo" src="/img/logo.png"></a>
+        </div>
+        <nav>
+            <ul id="ul-header">
+            <li><a href="/06- tela calendário/calendario.html">Calendário</a></li>
+            <li><a href="/02- tela cadastro de tarefas/tarefas.html">Tarefas</a></li>
+            <li><a href="/08- tela de alarmes/alarmes.html">Alarme</a></li>
+            <li><a href="/03- tela guia de habilidades/habilidades.html">Guias</a></li>
+            <li><a href="/04- tela lista/lista.html">Listas</a></li>
+            <li><a href="/09- tela de sucessos/sucessos.html">Sucessos</a></li>
+            </ul>
+        </nav>   
+    </header>
+   
+    <main>
+
+<div class="centerpage">
+    <form id="tarefas"> <!--fiz uma class no main pq tive que criar outro main-->
+        <h2>Cadastro de tarefas</h2>
+     <ul><div class="ul2">
+
+        <div class="nometarefa"><label for="tarefa">Nome da Tarefa:</label></div>
+        <div class="bottomtaf"><input type="text" id="tarefa" name="tarefaname" required></div>
+
+        <div class="dataentrega"><label for="data_entrega">Data de Entrega:</label></div>
+        <div class="bottomdat"><input type="date" id="entrega" name="data_entrega" required></div>
+        
+        <div class="alarm-container">
+            <div class="alm"><label for="tarefa">Alarme:</label></div>
+            <div id="formulario-alarme" class="hidden">
+                <input type="time" id="alarme">
+            </div>
+        </div>
+
+<!--<div class="list"><li>Lista:</li></div>
+        <div class="bottomlist"><button id="open-list">Abrir lista</button></div>
+
+
+        <div class="subtaf"><li>Subtarefas:</li></div>
+        <div class="bottomsubtaf"><button id="subtaf">Dividir a tarefa</button></div>-->
+
+        <div class="finalbottom">
+            <button id="submit" type="submit" value="Registrar">
+                <h2>Adicionar tarefa</h2>
+            </button></div>
+    </div></ul>
+
+
+    
+
+</form>
+</div>
+
+</main>
+
+<footer  class="footer">
+    <p><a href="/10- header e footer/politicadeprivacidade.html">Politica de privacidade</a> | aaalmeida@sga.pucminas.br | Arthur A. Almeida</p>
+</footer>
+
+<script src="tarefas.js" defer></script>
+
+</body>
+</html>

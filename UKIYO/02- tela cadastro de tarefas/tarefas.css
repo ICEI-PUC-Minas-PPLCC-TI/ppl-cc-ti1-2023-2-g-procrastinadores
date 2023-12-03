@@ -1,0 +1,229 @@
+
+
+/**{
+    outline: 2px solid red;
+
+}*/
+
+body {
+    font-family: 'Tilt Neon', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    background: #FFF;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+main {
+    flex: 1;
+    
+    }
+
+
+.header{
+    display: flex;
+    justify-content: space-around;
+    background-color: #93FF96;
+    background-image: linear-gradient(to bottom right, #86E7B8, #93FF96, #B2FFA8);
+    align-items: center;
+    padding: 0 10px;
+}
+
+#logo{
+    height: 85px;
+}
+
+
+#ul-header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 60px;
+    list-style: none;
+
+}
+
+
+@media (max-width: 700px) {
+    #ul-header{
+        
+        gap: 30px;
+    
+    }
+}
+
+
+
+#ul-header a{
+    font-weight: 400px;
+    color:black;
+    background-color: #FFF;
+    padding: 5px;
+    border-radius: 10%;
+}
+.footer{
+
+    background-color: #93FF96;
+    background-image: linear-gradient(to bottom right, #86E7B8, #93FF96, #B2FFA8);
+    color:#FFF;
+    padding: 1px;
+    align-items: flex-end;
+    padding: 10px;
+}
+ 
+/*css do body*/
+
+  
+
+
+
+
+body {
+    font-family: 'Tilt Neon', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    background: #FFF;
+}
+#container {
+    width: 100%;
+    min-width: 940px;
+    margin: auto;
+}
+
+
+#tarefas{
+    color: #4E6E58;
+    font-size: 20px;
+    text-decoration: none #4E6E58 3px;
+}
+
+
+
+.centerpage {
+    background-color:#EAEFD3;
+    text-align: left;
+    border: 1px solid #bbb4b4;
+    border-radius: 5px;
+    box-shadow: 0 0 400px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 450px;
+    max-height: 600px;
+    width: 100%;
+    margin: 0 auto;
+    padding-bottom: 10px;
+    text-align: left;
+}
+
+.ul2 {
+    list-style-type: none;
+
+}
+
+
+h2 {
+    text-align: center;
+}
+
+
+.nometarefa {
+    text-align: center;
+    padding-bottom: 5px;
+    padding-top: 0px;
+}
+
+.bottomtaf {
+      text-align: center;
+
+}
+
+.bottomdat {
+    text-align: center;
+
+}
+
+#tarefa {
+    padding: 3px 50px;
+
+}
+
+.dataentrega {
+    text-align: center;
+    padding-bottom: 5px;
+    padding-top: 15px;
+}
+
+.alarm-container {
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    margin-bottom: 50px;
+}
+
+.alm {
+    padding-bottom: 5px;
+}
+
+#confirmar-alarme {
+    background-color: #7ADFBB;
+}
+
+.list {
+    text-align: center;
+    padding-bottom: 5px;
+    padding-top: 10px;
+
+}
+
+.bottomlist {
+    text-align: center; 
+}
+
+#open-list {
+    padding: 2px 57px;
+    background-color: #7ADFBB;
+}
+
+.subtaf {
+    text-align: center;
+    padding-top: 15px;
+
+}
+
+#subtaf {
+    padding: 2px 42px;
+    background-color: #7ADFBB;
+}
+
+.bottomsubtaf {
+    text-align: center;
+    padding-bottom: 5px;
+    padding-top: 8px;
+
+}
+
+#btnCor {
+    padding: 0px 50px;
+    background-color: #4C8577;
+    border-radius: 5px;
+
+}
+
+.finalbottom {
+    text-align: center;
+    padding-top: 40px;
+
+}
+
+.logo {
+
+    border-radius: 5px; 
+    width: 0px;
+    height: 65px;
+
+}
