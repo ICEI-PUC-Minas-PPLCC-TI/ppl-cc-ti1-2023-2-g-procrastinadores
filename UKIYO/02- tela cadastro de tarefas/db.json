@@ -1,0 +1,23 @@
+{
+    "tarefa": {
+      "nome": "",
+      "data_de_entrega": "",
+      "alarme": "",
+      "lista": "",
+      "subtarefas": [
+        {
+          "nome": "",
+          "concluida": false
+        },
+        {
+          "nome": "",
+          "concluida": false
+        },
+        {
+          "nome": "",
+          "concluida": false
+        }
+      ]
+    }
+  }
+  

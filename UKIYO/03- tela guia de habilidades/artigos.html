@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Ukiyo - Guia de Habilidades</title>
+	<link rel="stylesheet" href="artigo.css">
+	<script src="habilidades.js" defer></script>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Jost:wght@200&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Tilt+Neon&amp;display=swap" rel="stylesheet">
+</head>
+
+<body onload="carregarArtigo(window.location.hash.substring(1))">
+   
+	<header class="header">
+        <div class="img-logo">
+            <a href="/01- main/index.html"><img id="logo" src="/img/logo.png"></a>
+        </div>
+        <nav>
+            <ul id="ul-header">
+            <li><a href="/06- tela calendário/calendario.html">Calendário</a></li>
+            <li><a href="/02- tela cadastro de tarefas/tarefas.html">Tarefas</a></li>
+            <li><a href="/08- tela de alarmes/alarmes.html">Alarme</a></li>
+            <li><a href="/03- tela guia de habilidades/habilidades.html">Guias</a></li>
+            <li><a href="/04- tela lista/lista.html">Listas</a></li>
+            <li><a href="/09- tela de sucessos/sucessos.html">Sucessos</a></li>
+            </ul>
+        </nav>   
+    </header>
+
+		<main>
+			<section id="article">
+				<h2 class="title">Placeholder</h2>
+				<div class="content">
+					<nav class="article-nav">
+						<!-- ITEM DE ARTIGO -->
+						<div class="article-nav-item">
+							<div class="item">placeholder 1</div>
+							<div class="subitem">
+								placeholder 1/1
+							</div>
+						</div>
+						<div class="article-nav-item">
+							<div class="item">placeholder 2</div>
+							<div class="subitem">
+								placeholder 2/1
+							</div>
+							<div class="subitem">
+								placeholder 2/2
+							</div>
+						</div>
+						<div class="article-nav-item">
+							<div class="item">placeholder 3</div>
+							<div class="subitem">
+								placeholder 3/1
+							</div>
+							<div class="subitem">
+								placegolder 3/2
+							</div>
+						</div>
+					</nav>
+
+					<div class="txt-box">
+						<div class="txt">Lorem ipsum dolor sit amet.</div>
+					</div>
+				</div>
+			</section>
+			<ul id="nav-buttons">
+				<li><button id="anterior" onclick="passarAnt()">ANTERIOR</button></li>
+				<li><button id="proximo" onclick="passarProx()">PRÓXIMO</button></li>
+			</ul>
+		</main>
+
+		<footer  class="footer">
+			<p><a href="/10- header e footer/politicadeprivacidade.html">Politica de privacidade</a> | sirius.victor@sga.pucminas.br | Sirius V. Zevallos</p>
+		</footer>
+
+</body>
+</html>

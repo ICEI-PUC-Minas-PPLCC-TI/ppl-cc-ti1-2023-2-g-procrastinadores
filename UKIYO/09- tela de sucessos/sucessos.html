@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela de Sucessos</title>
+    <link rel="stylesheet" type="text/css" href="sucessos.css"/>
+    <script src="sucessos.js" defer></script>
+    <link href="https://fonts.googleapis.com/css2?family=Tilt+Neon&amp;display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <header class="header">
+        <div class="img-logo">
+            <a href="/01- main/index.html"><img id="logo" src="/img/logo.png"></a>
+        </div>
+        <nav>
+            <ul id="ul-header">
+            <li><a href="/06- tela calendário/calendario.html">Calendário</a></li>
+            <li><a href="/02- tela cadastro de tarefas/tarefas.html">Tarefas</a></li>
+            <li><a href="/08- tela de alarmes/alarmes.html">Alarme</a></li>
+            <li><a href="/03- tela guia de habilidades/habilidades.html">Guias</a></li>
+            <li><a href="/04- tela lista/lista.html">Listas</a></li>
+            <li><a href="/09- tela de sucessos/sucessos.html">Sucessos</a></li>
+            </ul>
+        </nav>   
+    </header>
+   
+  <main class="sucessos">
+  <div class="centro">
+            <div class="container">
+                <h1>RESULTADOS</h1>
+             
+               <div class="bt1"><button onclick="completeActivity()" onclick="atualizarImagem()">CONCLUÍDAS</button></div>
+               <div class="counter1"><span id="completedCount"><b>0</span></div>
+
+               <div class="bt2"><button onclick="addTodo()">PENDENTES</button></div>
+               <div class="counter2"><span id="todoCount">0</span></div>
+
+                <div class="bt3"></div> <button onclick="markNotDone()">NÃO REALIZADAS</button></div>
+                <div class="counter3"><span id="notDoneCount">0</span></div>
+                
+            </div>
+               
+        </div>
+
+   
+              <img id="imagem" src="imgs/Parte6.png" alt="imagem1">
+            
+          
+
+    
+        
+
+
+</main>
+
+<footer  class="footer">
+    <p><a href="/10- header e footer/politicadeprivacidade.html">Politica de privacidade</a> | aaalmeida@sga.pucminas.br | Arthur A. Almeida</p>
+</footer>
+
+</body>
+</html>

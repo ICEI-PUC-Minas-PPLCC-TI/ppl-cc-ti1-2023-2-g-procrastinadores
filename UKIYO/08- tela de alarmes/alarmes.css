@@ -1,0 +1,157 @@
+
+/**{
+    outline: 2px solid red;
+
+}*/
+
+body {
+  font-family: 'Tilt Neon', sans-serif;
+  margin: 0px;
+  padding: 0px;
+  background: #FFF;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+main {
+flex: 1;
+
+}
+
+
+.header{
+  display: flex;
+  justify-content: space-around;
+  background-color: #758467;
+  background-color: #93FF96;
+  background-image: linear-gradient(to bottom right, #86E7B8, #93FF96, #B2FFA8);
+  align-items: center;
+  padding: 0 10px;
+}
+
+#logo{
+  height: 85px;
+}
+
+
+#ul-header{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 60px;
+  list-style: none;
+
+}
+
+
+@media (max-width: 700px) {
+  #ul-header{
+      
+      gap: 30px;
+  
+  }
+}
+
+
+
+#ul-header a{
+  font-weight: 400px;
+  color:black;
+  background-color: #FFF;
+  padding: 5px;
+  border-radius: 10%;
+}
+.footer{
+
+  background-color: #93FF96;
+  background-image: linear-gradient(to bottom right, #86E7B8, #93FF96, #B2FFA8);
+  color:#FFF;
+  padding: 1px;
+  align-items: flex-end;
+  padding: 10px;
+}
+
+/*css do body*/
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+  }
+  
+  .clock {
+    width: 300px;
+    height: 300px;
+    margin: 50px auto;
+    background-color: #fff;
+    border-radius: 50%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    position: relative;
+  }
+  
+  .time {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .time span {
+    display: inline-block;
+    font-size: 50px;
+    font-weight: bold;
+    color: #333;
+    text-shadow: 1px 1px 0 #fff;
+  }
+  
+  .time .hours {
+    padding-right: 10px;
+  }
+  
+  .time .minutes {
+    padding: 0 10px;
+  }
+  
+  .time .seconds {
+    padding-left: 10px;
+  }
+  
+  .alarm {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .alarm input[type="time"] {
+    font-size: 20px;
+    padding: 5px;
+    margin-right: 10px;
+  }
+  
+  .alarm button {
+    font-size: 20px;
+    padding: 5px 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
