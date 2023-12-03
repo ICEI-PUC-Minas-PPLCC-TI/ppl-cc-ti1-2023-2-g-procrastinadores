@@ -1,0 +1,20 @@
+{
+  "tarefas": [
+    {
+      "nome": "string",
+      "data de entrega": {
+        "dia": 10,
+        "mes": 11,
+        "ano": 2023,
+        "hora": 0,
+        "minuto": 1
+      },
+      "alarme": false,
+      "status": {
+        "feito": true,
+        "fazendo": false,
+        "a fazer": false
+      }
+    }
+  ]
+}

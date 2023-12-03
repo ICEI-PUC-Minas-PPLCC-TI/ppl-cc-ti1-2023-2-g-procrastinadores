@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Categoria de tarefas</title>
+    <link rel="stylesheet" href="index.css" />
+</head>
+
+<body>
+
+    <div class="header">
+        <header>
+            <img id="logo" src="./imgs/logo.png">
+            <div id="nav-itens-box">
+                <ul id="nav-itens">
+                    <li class="nav-item">Home</li>
+                    <li class="nav-item">Sobre</li>
+                    <li class="nav-item">Objetivos</li>
+                    <li class="nav-item">Lista</li>
+                    <li class="nav-item">Perfil</li>
+                </ul>
+            </div>
+            <div id="nav-icones">
+                <div class="icone">A</div>
+                <div class="icone">N</div>
+            </div>
+        </header>
+
+
+    </div>
+
+    <div class="form">
+        <form id="tarefas">
+        <main>
+            <h2>Cadastro de tarefas</h2>
+            <ul>
+                <div class="ul2">
+
+                    <div id="nometarefa"><label for="tarefa">Nome da Tarefa:</label></div>
+                    <div class="bottomtaf"><input type="text" id="tarefa" name="tarefaname" required></div>
+
+                    <div class="dataentrega"><label for="data_entrega">Data de Entrega:</label></div>
+                    <div class="bottomdat"><input id="entrega" type="date" 
+                         name="data_entrega" required></div>
+
+                    <div class="alarm-container">
+                        <div class="alm"><label for="tarefa">Alarme:</label></div>
+                        <div id="formulario-alarme" class="hidden">
+                            <input id="alarme" type="time" id="horario-alarme">
+                        </div>
+                    </div>
+
+                    <div class="finalbottom">
+                        <button id="submit" type="submit" value="Registrar">
+                            <h2>Adicionar tarefa</h2>
+                        </button>
+                    </div>
+                    </form>
+                </div>
+            </ul>
+
+
+
+
+        </main>
+    </div>
+
+
+
+    <div class="footerclass">
+        <footer><b> Política de privacidade | Contato@gmail.com | Autor </footer>
+    </div>
+
+
+    <script src="app.js" defer></script>
+
+</body>
+
+</html>
